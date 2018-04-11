@@ -4,7 +4,7 @@ env:
     - BACKEND=openssl-1.1.0h
 
 install:
-    - bash backends/$BACKEND.sh make
+    - bash backends/$BACKEND.sh install
 
 script:
     - bash verify.sh

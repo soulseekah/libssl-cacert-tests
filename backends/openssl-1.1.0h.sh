@@ -1,6 +1,6 @@
 #!/bin/bash
 
-make() {
+install() {
 	. backends/openssl.sh
 	cd openssl
 	git checkout OpenSSL_1_1_0h
