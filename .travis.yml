@@ -1,0 +1,10 @@
+language: bash
+
+env:
+    - BACKEND=openssl-1.1.0h
+
+install:
+    - bash backends/$BACKEND.sh make
+
+script:
+    - bash verify.sh
