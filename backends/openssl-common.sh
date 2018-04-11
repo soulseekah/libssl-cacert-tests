@@ -7,7 +7,7 @@ clean() {
 build() {
 	clean
 	cd openssl
-	git checkout OpenSSL_1_1_0h
+	git checkout $OPENSSL_TAG
 	./config no-asm
 	make clean
 	make
