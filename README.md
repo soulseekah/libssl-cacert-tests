@@ -4,7 +4,7 @@
 
 Test specific cacert.pem versions with different versions of libssl.
 
-![WordPress](https://raw.githubusercontent.com/soulseekah/libssl-cacert-tests/master/screenshot.png)
+![Tests](https://raw.githubusercontent.com/soulseekah/libssl-cacert-tests/master/screenshot.png)
 
 Inspired by https://github.com/rmccue/Requests/pull/212 and all related issues.
 
