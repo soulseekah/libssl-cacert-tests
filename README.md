@@ -1,5 +1,7 @@
 # libssl cacert.pem Automated Test Suite
 
+[![Build Status](https://travis-ci.org/soulseekah/libssl-cacert-tests.svg?branch=master)](https://travis-ci.org/soulseekah/libssl-cacert-tests)
+
 Test specific cacert.pem versions with different versions of libssl.
 Inspired by https://github.com/rmccue/Requests/pull/212 and all related issues.
 
