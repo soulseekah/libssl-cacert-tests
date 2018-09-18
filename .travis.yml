@@ -1,4 +1,5 @@
 language: bash
+dist: stretch
 
 env:
     - BACKEND=openssl-0.9.8e
